@@ -13,7 +13,8 @@ Enhances: wb-rules
 Description: TypeScript compiler (Microsoft typescript-go)
  tsgo is Microsoft's native Go implementation of the TypeScript
  compiler, a tsc-compatible command-line tool
- (github.com/microsoft/typescript-go), installed unmodified as /usr/bin/tsgo (the upstream binary name).
+ (github.com/microsoft/typescript-go), installed unmodified as
+ /usr/bin/tsgo under its upstream binary name.
  .
  wb-rules uses it to transpile and type-check TypeScript rule files
  (without it, .ts rule files are rejected with a clear error), but it is

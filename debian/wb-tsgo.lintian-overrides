@@ -1,0 +1,4 @@
+# pure-Go binary (CGO_ENABLED=0): statically linked by nature
+wb-tsgo: statically-linked-binary [usr/bin/tsgo]
+# upstream ships no man page; the CLI mirrors tsc (tsgo --help)
+wb-tsgo: no-manual-page [usr/bin/tsgo]
