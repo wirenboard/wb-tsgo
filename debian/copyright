@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: typescript-go
+Upstream-Contact: https://github.com/microsoft/typescript-go
+Source: https://github.com/microsoft/typescript-go
+
+Files: *
+Copyright: 2026 Wiren Board team <info@wirenboard.com>
+License: MIT
+
+Files: tsgo (built binary)
+Copyright: Microsoft Corporation
+License: Apache-2.0
+Comment: The wb-tsgo package builds and ships the tsgo binary from
+ github.com/microsoft/typescript-go (Apache License 2.0) together with
+ its Go module dependencies, each under its own license (see the go.mod
+ of typescript-go). The full Apache License 2.0 text is available in
+ /usr/share/common-licenses/Apache-2.0 on Debian systems.

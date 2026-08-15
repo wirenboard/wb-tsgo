@@ -1,0 +1,11 @@
+wb-tsgo (7.1.0~dev.20260813) unstable; urgency=medium
+
+  * Initial release: tsgo, Microsoft's native Go implementation of the
+    TypeScript compiler (github.com/microsoft/typescript-go), built from
+    source at the version pinned in go.mod
+    (v0.0.0-20260813172707-3d981a41cced, "Version 7.1.0-dev") and
+    installed unmodified as /usr/bin/tsgo. A tsc-compatible standalone CLI;
+    also the default -tsgo compiler of wb-rules, which uses it to
+    transpile and type-check TypeScript rule files.
+
+ -- wb-rules QuickJS port <wb-claude-mail-00001-7@proton.me>  Sat, 15 Aug 2026 10:30:00 +0000
