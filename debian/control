@@ -16,6 +16,6 @@ Description: TypeScript compiler (Microsoft typescript-go)
  (github.com/microsoft/typescript-go), installed unmodified as
  /usr/bin/tsgo under its upstream binary name.
  .
- wb-rules uses it to transpile and type-check TypeScript rule files
- (without it, .ts rule files are rejected with a clear error), but it is
- a standalone tool usable for any TypeScript work on the controller.
+ wb-rules depends on it to transpile and type-check TypeScript rule
+ files; it is also a standalone tool usable for any TypeScript work on
+ the controller.
